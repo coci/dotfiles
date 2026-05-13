@@ -24,3 +24,6 @@ vim.keymap.set({'n', 'x'}, 'gp', '"+p')
 -- move lines
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv'")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv'")
+vim.keymap.set('n', '<leader>b', '<cmd>Bufferin<cr>', { desc = 'Toggle Bufferin' })
+
+
